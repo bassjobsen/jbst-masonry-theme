@@ -1,0 +1,67 @@
+.include-custom-font("BariolRegular";"bariol_regular-webfont";);
+@masonry-base-color: #028302;
+@navbar-default-bg: black;
+@navbar-default-link-color: white;
+@navbar-default-link-hover-color: white;
+@navbar-default-link-active-color:white;
+@navbar-default-link-hover-bg: @masonry-base-color;
+@navbar-default-link-active-bg: @masonry-base-color;
+@footer-bg-color: black;
+@footer-text-color: white;
+@footer-link-color: white;
+#page,.site-content {
+padding:0;
+.row {margin:0px;}
+} 
+
+article div.header 
+{  color: white; background-color: @masonry-base-color; 
+ h1 {
+	font-size: 16px; line-height:1; padding: 5px;
+	a {color: white; font-size: 16px; }
+ }
+} 
+
+#contentholder div[class*="col-"] {
+article {
+.box-shadow(7px 7px 5px 0px rgba(50, 50, 50, 0.75));
+}
+margin-bottom:25px;
+}
+.navbar {
+.search-form {
+    float: right !important;
+}
+}
+
+.searchbutton {
+.button-variant(white;@masonry-base-color;white); 
+}
+
+
+.paging 
+{
+text-align: center;
+ul {
+    .center-block();
+    display: inline-block;
+	list-style-type: none;
+li {
+    float:left;
+    margin:0px 0px 2px 0px;
+    
+    span,
+    a {
+    background-color:#000;
+    color:#FFF;
+    padding:7px 11px 7px 11px;
+    font-size:12px;
+    border:solid 2px #000;
+    margin-left:1px;
+    &:hover, &.current, &.dots {
+    background-color:@masonry-base-color; 
+    }
+	}
+}
+}
+}

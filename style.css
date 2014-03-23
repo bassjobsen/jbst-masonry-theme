@@ -1,0 +1,27 @@
+/*
+Theme Name: JBST Masonary Theme
+Theme URI: https://github.com/bassjobsen/jbst-masonary-theme
+Author: Bass Jobsen
+Author URI: http://www.jbst.eu/
+Description: Masonary child theme for Jamedo's Bootstrap Start Theme (JBST).
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: four-columns,left-sidebar,right-sidebar,responsive-layout,accessibility-ready,buddypress,custom-background,custom-colors,custom-header,custom-menu,theme-options,rtl-language-support
+Template: jamedo-bootstrap-start-theme
+*/
+@import url(../jamedo-bootstrap-start-theme/style.css);
+/*
+ * The best place to add custom CSS / LESS will be in less/custom.less or direct edit in the LESS Compiler
+ * If you add custom CSS here, consider to disable the LESS Compile at all:
+ * 
+ * add to your function.php:
+ * 
+ *  add_action('jbst_child_settings','sample_jbst_child_settings');
+ *	function sample_jbst_child_settings()
+ *	{
+ * 	if(!defined('jbst_less'))define('jbst_less',0);
+ *	}	
+ * 
+ */
+

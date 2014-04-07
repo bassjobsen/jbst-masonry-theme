@@ -30,15 +30,18 @@ Alternatively you can also add the LESS code mentioned above to less/custom.less
 JBST Masonry Theme's Less variables:
 
 	@masonry-base-color: #028302;
+	@masonry-header-backgroundcolor: @masonry-base-color;
+	@masonry-header-fontcolor: contrast(@masonry-header-backgroundcolor);
+	@masonry-box-shadow: "7px 7px 5px 0px rgba(50, 50, 50, 0.75)"; // makes use of Bootstrap's .box-shadow() mixin
 	@navbar-default-bg: black;
-	@navbar-default-link-color: white;
-	@navbar-default-link-hover-color: white;
-	@navbar-default-link-active-color:white;
+	@navbar-default-link-color: contrast(@navbar-default-bg);
+	@navbar-default-link-hover-color: contrast(@masonry-base-color);
+	@navbar-default-link-active-color: contrast(@masonry-base-color);
 	@navbar-default-link-hover-bg: @masonry-base-color;
 	@navbar-default-link-active-bg: @masonry-base-color;
 	@footer-bg-color: black;
-	@footer-text-color: white;
-	@footer-link-color: white;
+	@footer-text-color: contrast(@footer-bg-color);
+	@footer-link-color: contrast(@footer-bg-color);
 
 You always have to recompile your LESS code into CSS by using the recompile function (Appearance > LESS Compiler) after changing less/custom.less.
 

@@ -1,30 +1,32 @@
-.include-custom-font("BariolRegular";"bariol_regular-webfont";);
 @masonry-base-color: #028302;
+@masonry-header-backgroundcolor: @masonry-base-color;
+@masonry-header-fontcolor: contrast(@masonry-header-backgroundcolor);
+@masonry-box-shadow: "7px 7px 5px 0px rgba(50, 50, 50, 0.75)";
 @navbar-default-bg: black;
-@navbar-default-link-color: white;
-@navbar-default-link-hover-color: white;
-@navbar-default-link-active-color:white;
+@navbar-default-link-color: contrast(@navbar-default-bg);
+@navbar-default-link-hover-color: contrast(@masonry-base-color);
+@navbar-default-link-active-color: contrast(@masonry-base-color);
 @navbar-default-link-hover-bg: @masonry-base-color;
 @navbar-default-link-active-bg: @masonry-base-color;
 @footer-bg-color: black;
-@footer-text-color: white;
-@footer-link-color: white;
+@footer-text-color: contrast(@footer-bg-color);
+@footer-link-color: contrast(@footer-bg-color);
 #page,.site-content {
 padding:0;
 .row {margin:0px;}
 } 
 
 article div.header 
-{  color: white; background-color: @masonry-base-color; 
+{  color: @masonry-header-fontcolor; background-color: @masonry-header-backgroundcolor; 
  h1 {
 	font-size: 16px; line-height:1; padding: 5px;
-	a {color: white; font-size: 16px; }
+	a {color: @masonry-header-fontcolor; font-size: 16px; }
  }
 } 
 
 #contentholder div[class*="col-"] {
 article {
-.box-shadow(7px 7px 5px 0px rgba(50, 50, 50, 0.75));
+.box-shadow(~"@{masonry-box-shadow}");
 }
 margin-bottom:25px;
 }
@@ -35,7 +37,7 @@ margin-bottom:25px;
 }
 
 .searchbutton {
-.button-variant(white;@masonry-base-color;white); 
+.button-variant(contrast(@masonry-base-color);@masonry-base-color;contrast(@masonry-base-color);); 
 }
 
 
@@ -53,13 +55,14 @@ li {
     span,
     a {
     background-color:#000;
-    color:#FFF;
+    color:#fff;
     padding:7px 11px 7px 11px;
     font-size:12px;
     border:solid 2px #000;
     margin-left:1px;
     &:hover, &.current, &.dots {
-    background-color:@masonry-base-color; 
+    background-color:@masonry-base-color;
+    color: contrast(@masonry-base-color); 
     }
 	}
 }

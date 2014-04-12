@@ -17,7 +17,7 @@ function masonry_jbst_child_settings()
 	if(!defined('logo_image_position'))define('logo_image_position','outside-nav');
 }	
 
-add_action( 'after_setup_theme', 'masonry_jbst_theme_setup');
+add_action( 'after_setup_theme', 'masonry_jbst_theme_setup',99);
 function masonry_jbst_theme_setup()
 {
 	/* Load custom jbst onepxdeep Theme Customizer options. */

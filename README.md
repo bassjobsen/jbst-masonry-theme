@@ -32,7 +32,9 @@ JBST Masonry Theme's Less variables:
 	@masonry-base-color: #028302;
 	@masonry-header-backgroundcolor: @masonry-base-color;
 	@masonry-header-fontcolor: contrast(@masonry-header-backgroundcolor);
-	@masonry-box-shadow: "7px 7px 5px 0px rgba(50, 50, 50, 0.75)"; // makes use of Bootstrap's .box-shadow() mixin
+	@masonry-article-box-shadow: "7px 7px 5px 0px rgba(50, 50, 50, 0.75)";
+	@masonry-article-backgroundcolor: white;
+	@masonry-article-fontcolor: contrast(@masonry-article-backgroundcolor);
 	@navbar-default-bg: black;
 	@navbar-default-link-color: contrast(@navbar-default-bg);
 	@navbar-default-link-hover-color: contrast(@masonry-base-color);

@@ -1,4 +1,4 @@
-JBST Masonry Theme
+JBST Masonry
 ============================
 [JBST](http://www.jbst.eu/) is a powerful theme framework that can be used as a standalone website builder or as a framework to create child themes for wordpress build on Twitter's Bootstrap 3. Full customizable with [Less](http://www.lesscss.org/). [Masonry](http://masonry.desandro.com/) is a JavaScript grid layout library. It works by placing elements in optimal position based on available vertical space, sort of like a mason fitting stones in a wall. You've probably seen it in use all over the Internet.
 
@@ -28,6 +28,7 @@ Use the built-in compiler to:
 Alternatively you can also add the LESS code mentioned above to less/custom.less in your child theme's folder.
 
 JBST Masonry Theme's Less variables:
+------------------------------------
 
 	@masonry-base-color: #028302;
 	@masonry-header-backgroundcolor: @masonry-base-color;
@@ -46,6 +47,18 @@ JBST Masonry Theme's Less variables:
 	@footer-link-color: contrast(@footer-bg-color);
 
 You always have to recompile your LESS code into CSS by using the recompile function (Appearance > LESS Compiler) after changing less/custom.less.
+
+Credits
+-------
+
+* [JBST](http://jbst.eu/)
+* [WordPress](http://wordpress.org/)
+* [Bootstrap](http://twitter.github.com/bootstrap/)
+* [jQuery](http://www.jquery.com/)
+* [Less.js](http://www.lesscss.org/)
+* [less.php](http://lessphp.gpeasy.com/)
+* [jQuery](http://masonry.desandro.com/)‎, Masonry is a JavaScript grid layout library
+
 
 Example
 -------

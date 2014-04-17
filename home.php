@@ -1,13 +1,10 @@
 <?php
+/*
+Template Name: Masonry
+Description: Template which shows your post in a masonary grid
+*/
 global $jbst_layout;
 $jbst_layout = 'full-width';
-wp_enqueue_script( 'imagesloaded', get_stylesheet_directory_uri() . '/assets/js/imagesloaded.pkgd.min.js', array('jquery'));
-wp_enqueue_script( 'masonry', get_stylesheet_directory_uri() . '/assets/js/masonry.pkgd.min.js', array('jquery','imagesloaded'));
-wp_enqueue_script( 'masonrysettings', get_stylesheet_directory_uri() . '/assets/js/masonry.js', array('masonry'));
-/*
-Template Name: Example
-Description: Simple template
-*/
 get_header();
 do_action( 'jbst_before_content_page' );
 ?>

@@ -1,12 +1,15 @@
 === JBST Masonry ===
 Contributors: bassjobsen
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SNYGRL7YNVYQW
-Tags: one-column,two-columns,three-columns,left-sidebar,right-sidebar,responsive-layout,accessibility-ready,buddypress,custom-background,custom-colors,custom-header,custom-menu,theme-options
+Tags: one-column,two-columns,three-columns,left-sidebar,right-sidebar,responsive-layout,buddypress,custom-background,custom-colors,custom-header,custom-menu,theme-options
 Requires at least: 3.6
 Tested up to: 3.9
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+JBST Masonry WordPress Theme, Copyright 2014 jbst.eu
+JBST Masonry is distributed under the terms of the GNU GPLv2 or later
 
 Child Theme of JBST. With built-in Less Compiler and Masonry Grid layout. Based on jQuery Manasonry and Twitter's Bootstrap 3
 
@@ -27,3 +30,7 @@ Child Theme of JBST. With built-in Less Compiler and Masonry Grid layout. Based 
 -- fonts --
  * Glyphicons, http://glyphicons.com/, Apache 2 license
  * Google Fonts, https://developers.google.com/fonts/, Google Fonts are licensed under open source licenses 
+ 
+-- images --
+screenshot.png: *  http://codex.wordpress.org/Theme_Unit_Test (test data), GPLv2
+				*  honey bees, http://pixabay.com/nl/honing-bee-water-buckfast-insect-292132/, CC0

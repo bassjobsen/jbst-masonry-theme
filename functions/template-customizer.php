@@ -61,7 +61,7 @@ TO REGISTER YOUR OWN, SIMPLY COPY ANY OF THE SECTIONS BELOW INTO
 YOUR OWN THEME OR PLUGIN AND EDIT FOR YOUR NEEDS. 
 ==================================================================
 */
-$options=array('grid','mainnavigation','container','gridfloatbreakpoint','logo','navbar','background','typography','buttons','blog','discussion','footer');
+$options=array('grid','mainnavigation','container','gridfloatbreakpoint','logo','navbar','background','typography','buttons','blog','discussion','footer','masonry');
 if(is_array($options=apply_filters('jbst_customizer_options',$options)))
 {
 	foreach ($options as $option)
@@ -1325,4 +1325,3 @@ function jbst_wpec_customizer_options($wp_customize) {
 	) );
 }// END WP e-Commerce SETTINGS	
 }
-

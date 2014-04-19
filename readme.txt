@@ -2,9 +2,9 @@
 Contributors: bassjobsen
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SNYGRL7YNVYQW
 Tags: one-column,two-columns,three-columns,left-sidebar,right-sidebar,responsive-layout,buddypress,custom-background,custom-colors,custom-header,custom-menu,theme-options
-Requires at least: 3.6
+Requires at least: 3.9
 Tested up to: 3.9
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,8 @@ Child Theme of JBST. With built-in Less Compiler and Masonry Grid layout. Based 
 
 == Description ==
 
-[JBST](http://www.jbst.eu/) is a powerful theme framework that can be used as a standalone website builder or as a framework to create child themes for wordpress build on Twitter's Bootstrap 3. Full customizable with [Less](http://www.lesscss.org/). [Masonry](http://masonry.desandro.com/) is a JavaScript grid layout library. It works by placing elements in optimal position based on available vertical space, sort of like a mason fitting stones in a wall. You've probably seen it in use all over the Internet. Download the <a href="https://raw.github.com/bassjobsen/Boilerplate-JBST-Child-Theme/master/jbstchildtheming.pdf">Child Theme Guide</a>.
+[JBST](http://www.jbst.eu/) is a powerful theme framework that can be used as a standalone website builder or as a framework to create child themes for wordpress build on Twitter's Bootstrap 3. Full customizable with [Less](http://www.lesscss.org/). [Masonry](http://masonry.desandro.com/) is a JavaScript grid layout library. It works by placing elements in optimal position based on available vertical space, sort of like a mason fitting stones in a wall. You've probably seen it in use all over the Internet. Set the base color of the Masonry in the customizer or in your Dashboard: Appearance > Less Compiler, enter `@masonry-base-color: #578562;` in the text area and press "Recompile Less code".
+Download the <a href="https://raw.github.com/bassjobsen/Boilerplate-JBST-Child-Theme/master/jbstchildtheming.pdf">Child Theme Guide</a>.
 
 == Assets ==
  

@@ -1,7 +1,7 @@
 <?php
 /*
 Template Name: Masonry
-Description: Template which shows your post in a masonary grid
+Description: Template which shows your post in a masonry grid
 */
 global $jbst_layout;
 $jbst_layout = 'full-width';

@@ -20,26 +20,17 @@ function masonry_jbst_child_settings()
 add_action( 'after_setup_theme', 'masonry_jbst_theme_setup',99);
 function masonry_jbst_theme_setup()
 {
-	/* Load custom jbst onepxdeep Theme Customizer options. */
 	if(jbst_customizer)require( get_stylesheet_directory() . '/functions/template-customizer.php' );
-}		
+}	
+	
 add_filter('jbst_logo',function(){return;});
 function jbstmansonry_homepage_scripts()
 {
 	if(is_home() || is_page_template('Masonry'))
 	{
-		global $wp_version;
-		if ( version_compare( $wp_version, '3.9', '>=' ) ) {
+
 			wp_enqueue_script( 'masonry');
 			wp_enqueue_script( 'masonrysettings', get_stylesheet_directory_uri() . '/assets/js/masonry.js', array('jquery','masonry'));
-		}
-		else
-		{
-			wp_enqueue_script( 'imagesloaded', get_stylesheet_directory_uri() . '/assets/js/imagesloaded.pkgd.min.js', array('jquery'));
-			wp_enqueue_script( 'masonry', get_stylesheet_directory_uri() . '/assets/js/masonry.pkgd.min.js', array('jquery','imagesloaded'));
-			wp_enqueue_script( 'masonrysettings', get_stylesheet_directory_uri() . '/assets/js/masonry.js', array('masonry'));		
-		}	
-		
 
 	}		
 }	
